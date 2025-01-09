@@ -1,0 +1,7 @@
+{
+  "name": "examples",
+  "type": "module",
+  "scripts": {
+    "start": "tsx index.ts"
+  }
+}
