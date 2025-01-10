@@ -1,6 +1,10 @@
 {
   "name": "sdk-monorepo-template",
   "type": "module",
+
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "prepare": "husky install",
     "prebuild": "rm -rf packages/*/dist",
